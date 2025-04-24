@@ -25,7 +25,7 @@ nav{
     cursor: pointer;
   
 }
-/* bann{er */
+/* banner */
 .banner{
     max-width: 1280px;
     height: 560px;
@@ -51,7 +51,6 @@ color: rgba(14, 14, 14, 0.5);
     font-weight: bold;
 }
 .explore-btn{
-    font-weight: 270px;
     font-size: 18px;
     padding: 18px 35px;
     border-radius: 8px;
@@ -71,26 +70,35 @@ color: rgba(14, 14, 14, 0.5);
     height: 100%;
     object-fit: contain;
   }
+
   /* shared-style */
+
+
 .shared-title1{
     font-size: 40px;
     font-weight: bold;
   }
-  /* pillars */
-  .pillars-containers{
+  .all-containers{
     margin: 80px 160px;
-  }
-  .pillars-container{
+  } 
+  
+  
+  
+  /* pillars & Vision of Future */
+
+  .pillars-container, .vision-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
   }
   .pillar{
     max-width: 302px;
     height: 244px;
     background-color: rgba(255, 255, 255, 1);
-    margin-top: 32px;
     border-radius:16px ;
-    padding: 24px;
+    padding: 24px 24px;
   }
   .pillar-title{
     font-size: 20px;
@@ -103,4 +111,52 @@ color: rgba(14, 14, 14, 0.5);
   .pillar-description{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom:32px ;
+    margin-top: 24px;
   }
+  .vission{
+    max-width: 410px;
+    height: 325px;
+    border-radius:16px ;
+    padding: 24px 24px;
+  }
+  .v1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+
+  }
+.v2{
+  background-color:rgba(198, 228, 214, 1) ;
+
+}
+.v3{
+  background-color:rgba(247, 235, 207, 1) ;
+
+}
+.v-btn1, .v-btn2, .v-btn3 {
+  max-width: 122px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px 11px ;
+  border: none;
+  color: white;
+}
+.v-btn1{
+  background-color:rgba(84, 144, 245, 1) ;
+}
+.v-btn2{
+  background-color:rgba(9, 161, 92, 1) ;
+}
+.v-btn3{
+  background-color:rgba(255, 194, 57, 1) ;
+}
+
+/* quotes */
+.quotes{
+  background-color: rgba(255, 255, 255, 1);
+  padding: 48px 24px;
+  border-radius: 16px;
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 24px;
+  background-position-y: 25px;
+}
