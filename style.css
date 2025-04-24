@@ -1,3 +1,7 @@
+body{
+    background-color:rgba(241, 241, 243, 1);
+}
+
 .fira-sans-style {
     font-family: "Fira Sans", sans-serif;
 }
@@ -66,4 +70,37 @@ color: rgba(14, 14, 14, 0.5);
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+  /* shared-style */
+.shared-title1{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  /* pillars */
+  .pillars-containers{
+    margin: 80px 160px;
+  }
+  .pillars-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .pillar{
+    max-width: 302px;
+    height: 244px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    border-radius:16px ;
+    padding: 24px;
+  }
+  .pillar-title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .pillar-img{
+    max-width: 64px;
+    height: 64px;
+  }
+  .pillar-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
   }
