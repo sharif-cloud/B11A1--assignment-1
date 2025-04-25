@@ -82,7 +82,11 @@ color: rgba(14, 14, 14, 0.5);
     margin: 80px 160px;
   } 
   
-  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
   
   /* pillars & Vision of Future */
 
@@ -160,3 +164,45 @@ color: rgba(14, 14, 14, 0.5);
   background-position-x: 24px;
   background-position-y: 25px;
 }
+/* Your Opinion Matters  */
+.opinion-container{
+  background-color: white;
+  border-radius: 16px;
+  padding: 32px;
+}
+table {
+  height: 345px ;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+th{  
+  background-color: #cce3d1;
+  text-align: left;
+  font-size: 20px;
+  padding: 24px 24px;
+  height: 72px;
+  font-weight: bold;
+}
+ td {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 1);
+  text-align: left;
+  padding: 24px 24px;
+  border: 1px solid #ddd ;
+  height: 92px;
+}
+.opinion-select{
+  text-align: right;
+}
+select {    
+  text-align: center;
+  width: 100%;
+  padding: 14px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #e4f2e8;
+  font-size: 14px;
+  cursor: pointer;
+}
+
