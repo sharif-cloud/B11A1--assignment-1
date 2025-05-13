@@ -384,3 +384,31 @@ select {
 .newsletter button.subscribe-btn:hover {
   background-color: #b30900;
 }
+/* footer  */
+ .footer{
+ height: 226px;
+ padding: 50px 160px;
+ text-align: center;
+ background-color: rgba(255, 255, 255, 1);
+
+ }
+ .footer h2{
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 32px;
+ }
+ .footer hr {
+  width: 1122px;
+ }
+ .social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  gap: 23px;
+ }
+ .social-icon a{
+  width: 24px;
+  height: 24px;
+
+ }
